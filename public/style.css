@@ -22,9 +22,9 @@ button:active {
 }
 
 textarea {
-    font-family: monospace;
-    font-size: 16pt;
     width: 100%;
+    
+    height: 150px;
 }
 
 div {
@@ -35,3 +35,10 @@ div {
 #result {
     white-space: pre;
 }
+
+
+.buttons{
+    display: flex;
+    gap: 3px;
+}
+

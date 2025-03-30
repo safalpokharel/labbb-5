@@ -8,13 +8,18 @@
 </head>
 <body>
     <div>
+        <input id="search-field" type="text" placeholder="Enter ID"/>
         <textarea id="insert-field" placeholder="Document to insert"></textarea>
-        <button id="insert-button">Insert</button>
+        <div class="buttons">
+            <button id="create-button">Create</button>
+            <button id="read-button">Read</button>
+            <button id="read-all-button">ReadAll</button>
+            <button id="update-button">Update</button>
+            <button id="delete-button">Delete</button>
+        </div>
+        
     </div>
-    <div>
-        <textarea id="search-field" placeholder="{}"></textarea>
-        <button id="search-button">Search</button>
-    </div>
+
 
     <div>
         result: <div id="result"></div>
